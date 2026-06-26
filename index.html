@@ -1,136 +1,160 @@
 <!DOCTYPE html>
 
-<html class="dark" lang="pt.br"><head>
+<html class="dark" lang="pt-BR"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Venda suas Cartas | Pixels TCG</title>
+<title>Pixels TCG | Página Inicial</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <script id="tailwind-config">
-    tailwind.config = {
-      darkMode: "class",
-      theme: {
-        extend: {
-          "colors": {
-                "tertiary-fixed-dim": "#dbb8ff",
-                "on-surface": "#e5e2e1",
-                "secondary-fixed": "#fae500",
-                "secondary-container": "#fae500",
-                "on-primary-container": "#fffdff",
-                "on-secondary-fixed": "#1f1c00",
-                "on-error-container": "#ffdad6",
-                "secondary": "#ffffff",
-                "error": "#ffb4ab",
-                "on-primary-fixed": "#2e004e",
-                "surface-variant": "#353534",
-                "on-tertiary": "#441573",
-                "surface-tint": "#e0b6ff",
-                "on-primary-fixed-variant": "#6a0baa",
-                "primary-container": "#9d4edd",
-                "on-tertiary-fixed-variant": "#5b308c",
-                "outline": "#998d9e",
-                "surface-container-highest": "#353534",
-                "primary": "#e0b6ff",
-                "on-tertiary-container": "#fffdff",
-                "on-surface-variant": "#d0c2d5",
-                "inverse-primary": "#8433c4",
-                "error-container": "#93000a",
-                "on-secondary-fixed-variant": "#4f4800",
-                "on-tertiary-fixed": "#2b0053",
-                "background": "#131313",
-                "outline-variant": "#4d4353",
-                "on-secondary": "#363100",
-                "tertiary": "#dbb8ff",
-                "surface-container-high": "#2a2a2a",
-                "on-secondary-container": "#6f6600",
-                "on-background": "#e5e2e1",
-                "surface-bright": "#393939",
-                "on-error": "#690005",
-                "tertiary-fixed": "#efdbff",
-                "surface-container-lowest": "#0e0e0e",
-                "surface-container-low": "#1c1b1b",
-                "surface-dim": "#131313",
-                "secondary-fixed-dim": "#dbc900",
-                "surface": "#131313",
-                "on-primary": "#4c007d",
-                "primary-fixed-dim": "#e0b6ff",
-                "inverse-surface": "#e5e2e1",
-                "inverse-on-surface": "#313030",
-                "tertiary-container": "#8c61be",
-                "surface-container": "#201f1f",
-                "primary-fixed": "#f2daff"
-          },
-          "borderRadius": {
-                "DEFAULT": "0.25rem",
-                "lg": "0.5rem",
-                "xl": "0.75rem",
-                "full": "9999px"
-          },
-          "spacing": {
-                "margin-mobile": "16px",
-                "gutter": "20px",
-                "margin-desktop": "48px",
-                "base": "8px",
-                "lg": "40px",
-                "md": "24px",
-                "xl": "64px",
-                "sm": "12px",
-                "xs": "4px",
-                "container-max": "1280px"
-          },
-          "fontFamily": {
-                "headline-md": ["Sora"],
-                "body-md": ["Sora"],
-                "label-caps": ["Sora"],
-                "body-lg": ["Sora"],
-                "display-lg-mobile": ["Sora"],
-                "display-lg": ["Sora"]
-          },
-          "fontSize": {
-                "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "700"}],
-                "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
-                "label-caps": ["12px", {"lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "700"}],
-                "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
-                "display-lg-mobile": ["36px", {"lineHeight": "42px", "letterSpacing": "-0.02em", "fontWeight": "800"}],
-                "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "800"}],
-                "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "700"}]
-          }
-        },
-      },
-    }
-  </script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "tertiary-fixed-dim": "#dbb8ff",
+                        "on-surface": "#e5e2e1",
+                        "secondary-fixed": "#fae500",
+                        "secondary-container": "#fae500",
+                        "on-primary-container": "#fffdff",
+                        "on-secondary-fixed": "#1f1c00",
+                        "on-error-container": "#ffdad6",
+                        "secondary": "#ffffff",
+                        "error": "#ffb4ab",
+                        "on-primary-fixed": "#2e004e",
+                        "surface-variant": "#353534",
+                        "on-tertiary": "#441573",
+                        "surface-tint": "#e0b6ff",
+                        "on-primary-fixed-variant": "#6a0baa",
+                        "primary-container": "#9d4edd",
+                        "on-tertiary-fixed-variant": "#5b308c",
+                        "outline": "#998d9e",
+                        "surface-container-highest": "#353534",
+                        "primary": "#e0b6ff",
+                        "on-tertiary-container": "#fffdff",
+                        "on-surface-variant": "#d0c2d5",
+                        "inverse-primary": "#8433c4",
+                        "error-container": "#93000a",
+                        "on-secondary-fixed-variant": "#4f4800",
+                        "on-tertiary-fixed": "#2b0053",
+                        "background": "#131313",
+                        "outline-variant": "#4d4353",
+                        "on-secondary": "#363100",
+                        "tertiary": "#dbb8ff",
+                        "surface-container-high": "#2a2a2a",
+                        "on-secondary-container": "#6f6600",
+                        "on-background": "#e5e2e1",
+                        "surface-bright": "#393939",
+                        "on-error": "#690005",
+                        "tertiary-fixed": "#efdbff",
+                        "surface-container-lowest": "#0e0e0e",
+                        "surface-container-low": "#1c1b1b",
+                        "surface-dim": "#131313",
+                        "secondary-fixed-dim": "#dbc900",
+                        "surface": "#131313",
+                        "on-primary": "#4c007d",
+                        "primary-fixed-dim": "#e0b6ff",
+                        "inverse-surface": "#e5e2e1",
+                        "inverse-on-surface": "#313030",
+                        "tertiary-container": "#8c61be",
+                        "surface-container": "#201f1f",
+                        "primary-fixed": "#f2daff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "margin-mobile": "16px",
+                        "gutter": "20px",
+                        "margin-desktop": "48px",
+                        "base": "8px",
+                        "lg": "40px",
+                        "md": "24px",
+                        "xl": "64px",
+                        "sm": "12px",
+                        "xs": "4px",
+                        "container-max": "1280px"
+                    },
+                    "fontFamily": {
+                        "headline-md": ["Sora"],
+                        "body-md": ["Sora"],
+                        "label-caps": ["Sora"],
+                        "body-lg": ["Sora"],
+                        "display-lg-mobile": ["Sora"],
+                        "display-lg": ["Sora"],
+                        "price-display": ["Sora"]
+                    },
+                    "fontSize": {
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "700"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "label-caps": ["12px", {"lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "700"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "display-lg-mobile": ["36px", {"lineHeight": "42px", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                        "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                        "price-display": ["20px", {"lineHeight": "1.0", "fontWeight": "800"}]
+                    }
+                },
+            },
+        }
+    </script>
 <style>
-    .material-symbols-outlined {
-      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-    }
-    .pixel-corner {
-      clip-path: polygon(0 4px, 4px 4px, 4px 0, calc(100% - 4px) 0, calc(100% - 4px) 4px, 100% 4px, 100% calc(100% - 4px), calc(100% - 4px) calc(100% - 4px), calc(100% - 4px) 100%, 4px 100%, 4px calc(100% - 4px), 0 calc(100% - 4px));
-    }
-    .holo-shimmer:hover {
-      background: linear-gradient(135deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0) 100%);
-      background-size: 200% 200%;
-      animation: shimmer 1.5s infinite;
-    }
-    @keyframes shimmer {
-      0% { background-position: -200% 0; }
-      100% { background-position: 200% 0; }
-    }
-    .card-lift {
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    .card-lift:hover {
-      transform: translateY(-8px);
-      box-shadow: 0px 12px 30px rgba(157, 78, 221, 0.3);
-    }
-  </style>
+        .holofoil-effect {
+            position: relative;
+            overflow: hidden;
+        }
+        .holofoil-effect::after {
+            content: '';
+            position: absolute;
+            top: -150%;
+            left: -150%;
+            width: 300%;
+            height: 300%;
+            background: linear-gradient(
+                135deg,
+                rgba(255, 255, 255, 0) 0%,
+                rgba(255, 255, 255, 0.05) 45%,
+                rgba(255, 255, 255, 0.2) 50%,
+                rgba(255, 255, 255, 0.05) 55%,
+                rgba(255, 255, 255, 0) 100%
+            );
+            transform: rotate(25deg);
+            transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+            pointer-events: none;
+        }
+        .holofoil-effect:hover::after {
+            top: -50%;
+            left: -50%;
+        }
+        
+        .pixel-corner {
+            clip-path: polygon(
+                0 4px, 4px 4px, 4px 0,
+                calc(100% - 4px) 0, calc(100% - 4px) 4px, 100% 4px,
+                100% calc(100% - 4px), calc(100% - 4px) calc(100% - 4px), calc(100% - 4px) 100%,
+                4px 100%, 4px calc(100% - 4px), 0 calc(100% - 4px)
+            );
+        }
+
+        .card-lift {
+            transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
+        }
+        .card-lift:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0px 12px 32px rgba(157, 78, 221, 0.3);
+        }
+    </style>
 </head>
-<body class="bg-background text-on-surface font-body-md">
+<body class="bg-background text-on-background min-h-screen flex flex-col font-body-md selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
 <header class="w-full top-0 sticky z-50 bg-surface-container border-b border-outline-variant shadow-sm">
 <div class="flex justify-between items-center px-lg py-sm max-w-container-max mx-auto h-20">
 <div class="flex items-center gap-xs">
-    <img src="logo.png" alt="Pixels TCG Logo" class="h-12">
-    <span class="font-extrabold text-primary text-xl">
+<img alt="Pixels TCG Logo" class="h-12" src="logo.png"/>
+<span class="font-extrabold text-primary text-xl">
         Pixels TCG
     </span>
 </div>
@@ -150,211 +174,218 @@
 </div>
 </div>
 </header>
-<main class="max-w-container-max mx-auto px-gutter py-lg">
+<main class="flex-grow">
 <!-- Hero Section -->
-<section class="flex flex-col md:flex-row items-center gap-lg mb-xl">
-<div class="flex-1 space-y-md">
-<span class="font-label-caps text-on-primary-fixed bg-primary-fixed px-sm py-xs rounded-full">De Colecionador para Colecionador</span>
-<h1 class="font-display-lg text-display-lg text-on-surface">Transforme suas <span class="text-primary">Cartas</span> em <span class="text-on-secondary-container bg-secondary-container px-2">Créditos</span>.</h1>
-<p class="font-body-lg text-on-surface-variant max-w-xl">Coleção nova chegando e precisando liberar espaço para cartas novas? Aproveita que a Pixels compra suas cartas!</p>
-<div class="flex gap-md pt-md">
-<button class="bg-primary-container text-on-primary-container px-lg py-md rounded-lg font-bold hover:brightness-110 transition-all active:scale-95 shadow-md">Simule valores</button>
-<button class="border-2 border-outline-variant text-on-surface px-lg py-md rounded-lg font-bold hover:bg-surface-container transition-all">Como Funciona?</button>
+<section class="relative w-full h-[600px] overflow-hidden flex items-center justify-center">
+<div class="absolute inset-0 z-0">
+<img alt="Hero Banner" class="w-full h-full object-cover" src="https://preview.redd.it/gengar-and-the-gang-animated-desktop-wallpaper-version-v0-gpir30a1cqud1.gif?format=png8&s=be078482c9ad9e1e011efdb8b24fd3add0a6d2b3">
+<div class="absolute inset-0 bg-gradient-to-r from-background via-background/60 to-transparent"></div>
+</img></div>
+<div class="relative z-10 max-w-container-max mx-auto px-lg w-full text-center md:text-left">
+<div class="inline-block px-4 py-1 bg-secondary-container text-on-secondary-container rounded-full font-label-caps text-label-caps mb-md animate-bounce">
+                LANÇAMENTOS QUE ACABARAM DE CHEGAR
+            </div>
+<h1 class="font-display-lg text-display-lg text-white drop-shadow-lg mb-sm max-w-2xl">
+                Expanda sua coleção Pokémon!
+            </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-lg max-w-xl drop-shadow-md">
+                Todos os lançamentos de Pokémon TCG e acessórios disponíveis para pronta-entrega!
+            </p>
+<div class="flex flex-col sm:flex-row gap-md justify-center md:justify-start">
+<button class="pixel-corner bg-secondary-container text-on-secondary-container px-lg py-md font-display-lg text-[18px] font-extrabold hover:bg-secondary-fixed transition-all active:scale-95">
+                    VER LANÇAMENTOS
+                </button>
+<button class="pixel-corner bg-surface-container-highest/40 backdrop-blur-md text-white border-2 border-outline-variant px-lg py-md font-display-lg text-[18px] font-extrabold hover:bg-surface-container-highest/60 transition-all active:scale-95">
+                    VENDER MINHAS CARTAS
+                </button>
 </div>
-</div>
-<div class="flex-1 relative w-full aspect-square md:aspect-auto md:h-[500px] overflow-hidden rounded-xl bg-surface-container-highest shadow-2xl border border-outline-variant/30">
-<img
-  class="w-full h-full object-cover opacity-80"
-  src="https://images.openai.com/static-rsc-4/DmjHNGpCXGmc2O-WYwGVad3l0xdNk4ry_gA1EXW1YkLL-Rt9ZLf64j5_I3yKzZxEfO4jkOQsH3oN4vwy67jwDqJqKutIVi1qlQVwLUSRmuVxMFbBpKbSRhyipXQiTnN_fYdjFxkh8Mmo8Pekd--z84TRTfzxpvXQszmlYL_8yZyBwDdzf4wNSDoZHRySMdYf?purpose=fullsize"/>
-<div class="absolute inset-0 bg-gradient-to-t from-background to-transparent"></div>
 </div>
 </section>
-<!-- Value Calculator Bento Grid -->
-<section class="mb-xl">
-<div class="mb-md text-center">
-<h2 class="font-headline-lg text-on-surface">Avalie sua coleção</h2>
-<p class="text-on-surface-variant font-body-md">Preços com base no menor valor da LigaPokémon de acordo com o estado de preservação da carta</p>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-12 gap-md h-auto md:h-[600px]">
-<!-- Calculator Form -->
-<div class="md:col-span-8 bg-surface-container-lowest p-lg rounded-xl shadow-sm border border-outline-variant flex flex-col justify-between">
-<div class="grid grid-cols-1 md:grid-cols-2 gap-md">
-<div class="space-y-xs">
-<label class="font-label-caps text-on-surface-variant">Numeração da carta</label>
-<input class="w-full bg-surface-container-low border-2 border-transparent focus:border-primary rounded-lg p-md transition-all text-on-surface placeholder:text-outline" placeholder="ex. 276/217" type="text"/>
-</div>
-<div class="space-y-xs">
-<label class="font-label-caps text-on-surface-variant">Coleção</label>
-<select class="w-full bg-surface-container-low border-2 border-transparent focus:border-primary rounded-lg p-md transition-all text-on-surface appearance-none">
-<option>Mega Evolução</option>
-<option>Fogo Fantasmagórico</option>
-<option>Heróis Excelsos</option>
-<option>Equilíbrio Perfeito</option>
-<option>Caos Ascendente</option>
-<option>Coleções anteriores</option>
-</select>
-</div>
-<div class="space-y-xs">
-<label class="font-label-caps text-on-surface-variant">Preservação</label>
-<div class="grid grid-cols-3 gap-xs">
-<button class="bg-surface-container-high border-2 border-transparent hover:border-primary rounded-lg py-sm font-label-caps text-xs text-on-surface">Near Mint (NM)</button>
-<button class="bg-surface-container-high border-2 border-transparent hover:border-primary rounded-lg py-sm font-label-caps text-xs text-on-surface">Slightly Played (SP)</button>
-<button class="bg-surface-container-high border-2 border-transparent hover:border-primary rounded-lg py-sm font-label-caps text-xs text-on-surface">Moderately Played (MP)</button>
-<button class="bg-surface-container-high border-2 border-transparent hover:border-primary rounded-lg py-sm font-label-caps text-xs text-on-surface">Heavily Played (HP)</button>
-<button class="bg-surface-container-high border-2 border-transparent hover:border-primary rounded-lg py-sm font-label-caps text-xs text-on-surface">Damaged (D)</button>
-</div>
-</div>
-<div class="space-y-xs">
-<label class="font-label-caps text-on-surface-variant">Graduação</label>
-<select class="w-full bg-surface-container-low border-2 border-transparent focus:border-primary rounded-lg p-md transition-all text-on-surface appearance-none">
-<option>Não Graduada</option>
-<option>PSA</option>
-<option>BGS</option>
-<option>CGC</option>
-<option>TAG</option>
-<option>Manafix</option>
-<option>GBA</option>
-</select>
-</div>
-</div>
-<div class="mt-lg p-lg bg-surface-container-high rounded-xl flex items-center justify-between border-l-8 border-secondary-container">
+<!-- Coleções em Destaque (Bento Grid) -->
+<section class="max-w-container-max mx-auto px-lg py-xl">
+<div class="flex justify-between items-end mb-lg">
 <div>
-<p class="font-label-caps text-on-surface-variant">Valor Estimado</p>
-<h3 class="font-display-lg text-primary text-headline-lg">R$1.450,00 — R$1.620,00</h3>
+<h2 class="font-headline-lg text-[32px] text-primary">Produtos em Destaque</h2>
+<p class="text-on-surface-variant font-body-md mt-xs">Os principais lançamentos ou restocks do momento</p>
 </div>
-<button class="bg-secondary-container text-on-secondary-container px-lg py-md rounded-lg font-bold flex items-center gap-xs hover:brightness-110 transition-all">
-              Salvar Carta <span class="material-symbols-outlined">trending_flat</span>
+<button class="flex items-center gap-xs text-primary font-bold hover:underline">
+                Ver todas as coleções <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-md">
+<div class="md:col-span-2 md:row-span-2 relative rounded-xl overflow-hidden group shadow-md border border-outline-variant">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://www.pokemon.com/static-assets/content-assets/cms2/img/trading-card-game/series/me_series/me05/me05-banner.png')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-background/90 via-background/40 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-lg text-white">
+<span class="font-label-caps text-label-caps bg-secondary-container text-on-secondary-container px-2 py-1 rounded mb-sm inline-block">NOVA COLEÇÃO</span>
+<h3 class="font-headline-md text-headline-md">Escuridão Absoluta</h3>
+<p class="font-body-md opacity-90 text-on-surface-variant">Desvende os mistérios do Olho Abissal de Mega Darkrai</p>
+</div>
+</div>
+<div class="md:col-span-2 h-64 relative rounded-xl overflow-hidden group shadow-md border border-outline-variant">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://www.pokemon.com/static-assets/content-assets/cms2-pt-br/img/trading-card-game/series/incrementals/2026/first-partner-illustration-collection/series-3/first-partner-illustration-collection-169-br.png')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-md text-white">
+<h3 class="font-headline-md text-headline-md">Coleção Parceiro Inicial</h3>
+<p class="font-body-md opacity-90 text-on-surface-variant">Séries 3 com os iniciais de Hoenn, Kalos e Paldea!</p>
+</div>
+</div>
+<div class="h-64 relative rounded-xl overflow-hidden group shadow-md border border-outline-variant">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://img.kwcdn.com/product/fancy/2d1c934e-c295-4aee-b728-845dc43c1874.jpg?imageView2/2/w/800/q/70/format/avif')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-md text-white">
+<h3 class="font-body-lg font-bold">Accessórios</h3>
+</div>
+</div>
+<div class="h-64 relative rounded-xl overflow-hidden group shadow-md border border-outline-variant">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/754/697cf2d0eccd2-a5opg-h5lnm-9a3cbb1b17fb0c24b5f4da3defde2c8b.jpg')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-md text-white">
+<h3 class="font-body-lg font-bold">Cartas Pokémon</h3>
+</div>
+</div>
+</div>
+</section>
+<!-- Mascot Favorites -->
+<section class="bg-surface-container-low py-xl">
+<div class="max-w-container-max mx-auto px-lg">
+<div class="text-center mb-xl">
+<h2 class="font-display-lg text-[40px] text-primary mb-xs">Nossos Mascotes</h2>
+<p class="text-on-surface-variant font-body-md">As melhores cartas Pokémon escolhidas pelos nossos mascotes.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-md">
+<!-- Gengar Card -->
+<div class="bg-surface-container-lowest p-md rounded-xl shadow-sm holofoil-effect card-lift border border-outline-variant flex flex-col">
+<div class="aspect-[3/4] rounded-lg overflow-hidden mb-md relative bg-surface-container">
+<img class="w-full h-full object-cover" src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/754/697cf2d0eccd2-a5opg-h5lnm-9a3cbb1b17fb0c24b5f4da3defde2c8b.jpg"/>
+<div class="absolute top-sm right-sm bg-primary-container text-on-primary-container px-2 py-1 rounded font-label-caps text-[10px]">SIR</div>
+</div>
+<div class="flex-grow">
+<div class="flex items-center gap-xs mb-xs">
+<span class="material-symbols-outlined text-secondary-fixed text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="text-on-surface-variant font-label-caps text-[10px]">NEAR MINT (NM)</span>
+</div>
+<h4 class="font-headline-md text-[20px] mb-xs text-on-surface">Mega Gengar EX (Ilustração Rara Secreta)</h4>
+<p class="text-on-surface-variant text-sm mb-md">Heróis Excelsos • 284/217</p>
+</div>
+<div class="flex items-center justify-between">
+<span class="font-price-display text-primary text-price-display">R$2.800,00</span>
+<button class="p-2 bg-primary-container text-on-primary-container rounded-full hover:shadow-lg transition-shadow">
+<span class="material-symbols-outlined">add_shopping_cart</span>
 </button>
 </div>
 </div>
-<!-- Mascot Tip Boxes -->
-<div class="md:col-span-4 flex flex-col gap-md">
-<div class="flex-1 bg-primary-container text-on-primary-container p-lg rounded-xl relative overflow-hidden flex flex-col justify-end">
-<div class="relative z-10">
-<div class="w-16 h-16 bg-surface-container-highest/30 rounded-full flex items-center justify-center mb-sm">
-<div class="w-16 h-16 rounded-full overflow-hidden mb-sm"> <img src="pedro.png" alt="Pedro" class="w-full h-full object-cover"> </div>
+<!-- Togepi Card -->
+<div class="bg-surface-container-lowest p-md rounded-xl shadow-sm holofoil-effect card-lift border border-outline-variant flex flex-col">
+<div class="aspect-[3/4] rounded-lg overflow-hidden mb-md relative bg-surface-container">
+<img class="w-full h-full object-cover" src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/163/4885s_143a.jpg"/>
+<div class="absolute top-sm right-sm bg-secondary-container text-on-secondary-container px-2 py-1 rounded font-label-caps text-[10px]">ALT ART</div>
 </div>
-<h4 class="font-headline-md text-white">Dicas do JP:</h4>
-<p class="font-body-md text-white/90">Sempre coloque suas cartas raras em protetores (sleeves)! Até mesmo pequenos arranhões na superfície podem reduzir o valor de revenda em 40%.</p>
+<div class="flex-grow">
+<div class="flex items-center gap-xs mb-xs">
+<span class="material-symbols-outlined text-secondary-fixed text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="text-on-surface-variant font-label-caps text-[10px]">NEAR MINT (NM)</span>
+</div>
+<h4 class="font-headline-md text-[20px] mb-xs text-on-surface">Togepi, Cleffa e Igglybuff-GX (Alt Art)</h4>
+<p class="text-on-surface-variant text-sm mb-md">Eclipse Cósmico • 143a/236</p>
+</div>
+<div class="flex items-center justify-between">
+<span class="font-price-display text-primary text-price-display">R$4.800,00</span>
+<button class="p-2 bg-primary-container text-on-primary-container rounded-full hover:shadow-lg transition-shadow">
+<span class="material-symbols-outlined">add_shopping_cart</span>
+</button>
 </div>
 </div>
-<div class="flex-1 bg-secondary-fixed text-on-secondary-fixed p-lg rounded-xl relative overflow-hidden flex flex-col justify-end">
-<div class="relative z-10">
-<div class="w-16 h-16 bg-on-secondary-fixed/10 rounded-full flex items-center justify-center mb-sm">
-<div class="w-16 h-16 rounded-full overflow-hidden mb-sm"> <img src="mar.png" alt="Marinho" class="w-full h-full object-cover"> </div>
+<!-- Gengar Card 2 -->
+<div class="bg-surface-container-lowest p-md rounded-xl shadow-sm holofoil-effect card-lift border border-outline-variant flex flex-col">
+<div class="aspect-[3/4] rounded-lg overflow-hidden mb-md relative bg-surface-container">
+<img class="w-full h-full object-cover" src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/255/5724_271.jpg"/>
+<div class="absolute top-sm right-sm bg-tertiary-container text-on-tertiary-container px-2 py-1 rounded font-label-caps text-[10px]">ALT ART</div>
 </div>
-<h4 class="font-headline-md text-on-secondary-fixed">Sugestões do Marinho:</h4>
-<p class="font-body-md text-on-secondary-fixed opacity-80">Use *top-loaders* para proteção extra de cartas mais caras. Cartas bem cuidadas preservam maior valor!</p>
+<div class="flex-grow">
+<div class="flex items-center gap-xs mb-xs">
+<span class="material-symbols-outlined text-secondary-fixed text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="text-on-surface-variant font-label-caps text-[10px]">NEAR MINT (NM)</span>
+</div>
+<h4 class="font-headline-md text-[20px] mb-xs text-on-surface">Gengar VMAX (Alt Art)</h4>
+<p class="text-on-surface-variant text-sm mb-md">Golpe Fusão • 271/264</p>
+</div>
+<div class="flex items-center justify-between">
+<span class="font-price-display text-primary text-price-display">R$5.000,00</span>
+<button class="p-2 bg-primary-container text-on-primary-container rounded-full hover:shadow-lg transition-shadow">
+<span class="material-symbols-outlined">add_shopping_cart</span>
+</button>
+</div>
+</div>
+<!-- Togepi Card 2 -->
+<div class="bg-surface-container-lowest p-md rounded-xl shadow-sm holofoil-effect card-lift border border-outline-variant flex flex-col">
+<div class="aspect-[3/4] rounded-lg overflow-hidden mb-md relative bg-surface-container">
+<img class="w-full h-full object-cover" src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/754/697cf2781fab4-taw0i-rf309-9a3cbb1b17fb0c24b5f4da3defde2c8b.jpg"/>
+<div class="absolute top-sm right-sm bg-tertiary text-on-tertiary-container px-2 py-1 rounded font-label-caps text-[10px]">IR</div>
+</div>
+<div class="flex-grow">
+<div class="flex items-center gap-xs mb-xs">
+<span class="material-symbols-outlined text-secondary-fixed text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="text-on-surface-variant font-label-caps text-[10px]">Near Mint (NM)</span>
+</div>
+<h4 class="font-headline-md text-[20px] mb-xs text-on-surface">Togekiss (Ilustração Rara)</h4>
+<p class="text-on-surface-variant text-sm mb-md">Heróis Excelsos • 235/217</p>
+</div>
+<div class="flex items-center justify-between">
+<span class="font-price-display text-primary text-price-display">R$25,00</span>
+<button class="p-2 bg-primary-container text-on-primary-container rounded-full hover:shadow-lg transition-shadow">
+<span class="material-symbols-outlined">add_shopping_cart</span>
+</button>
 </div>
 </div>
 </div>
 </div>
 </section>
-<!-- Why Trade with Pixels? -->
-<section class="py-xl">
-<div class="flex flex-col items-center mb-lg">
-<h2 class="font-headline-lg text-center text-on-surface">Por que vender pra Pixels?</h2>
-<div class="w-24 h-1 bg-primary mt-sm"></div>
+<!-- Últimas Notícias -->
+<section class="max-w-container-max mx-auto px-lg py-xl">
+<h2 class="font-headline-lg text-[32px] text-primary mb-lg">Últimas Notícias</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-md">
+<article class="flex flex-col group cursor-pointer">
+<div class="h-48 rounded-xl overflow-hidden mb-md border border-outline-variant">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-80" src="https://championships.pokemon.com/static-assets/images/card-carousel/world-championships-arena.webp"/>
 </div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-lg">
-<!-- Feature 1 -->
-<div class="card-lift bg-surface-container-lowest p-lg rounded-xl border border-outline-variant text-center space-y-md">
-<div class="w-20 h-20 bg-surface-container-high rounded-full mx-auto flex items-center justify-center text-primary">
-<span class="material-symbols-outlined text-5xl">payments</span>
+<span class="font-label-caps text-label-caps text-tertiary mb-xs">MUNDIAL DE TCG</span>
+<h3 class="font-headline-md text-[20px] mb-sm group-hover:text-primary transition-colors text-on-surface">Mundial de San Francisco: Meta Report</h3>
+<p class="text-on-surface-variant text-sm line-clamp-3">Vimos um ressurgimento surpreendente do Raio Fúria EX neste fim de semana. Aqui está uma análise dos 8 melhores decks e do que esperar para a próxima temporada.</p>
+</article>
+<article class="flex flex-col group cursor-pointer">
+<div class="h-48 rounded-xl overflow-hidden mb-md border border-outline-variant">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-80" src="https://pbs.twimg.com/media/HLHczOJXAAAQZbq?format=jpg&name=360x360"/>
 </div>
-<h3 class="font-headline-md text-on-surface">Pagamentos Instantâneos</h3>
-<p class="text-on-surface-variant font-body-md">Não espere sua carta ser vendida. Assim que verificarmos a condição, seu crédito de loja ou dinheiro será liberado instantaneamente.</p>
+<span class="font-label-caps text-label-caps text-tertiary mb-xs">ANÚNCIO</span>
+<h3 class="font-headline-md text-[20px] mb-sm group-hover:text-primary transition-colors text-on-surface">Nova coleção revelada: Reinado Delta</h3>
+<p class="text-on-surface-variant text-sm line-clamp-3">A coleção do Mega Rayquaza finalmente ganhou data de lançamento. Veja tudo que sabemos até agora!</p>
+</article>
+<article class="flex flex-col group cursor-pointer">
+<div class="h-48 rounded-xl overflow-hidden mb-md border border-outline-variant">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-80" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgPQC1-m6sAVX6ZRMPT1H03AK8tgsk4zizwHQcn9wFryfQHreB047T7t_QOyMwjBAU58V8Nl10t2Sw9DlxT9A6rOZf3Y46TeCw_AZEuf3j44IDFZc5psq1H3mWOk90CKPrgjcFfRUg5zY0LcrFgw4gD7z1epmhOp6IwbFMmdhikiM0ATCHPiiuyhZWuRUepk6ErZgONTPiekeIGAlVAlOGpBUXYr29iry8LoJWnly8DR54gT_iy-QxRA"/>
 </div>
-<!-- Feature 2 -->
-<div class="card-lift bg-surface-container-lowest p-lg rounded-xl border border-outline-variant text-center space-y-md">
-<div class="w-20 h-20 bg-surface-container-high rounded-full mx-auto flex items-center justify-center text-primary">
-<span class="material-symbols-outlined text-5xl">verified</span>
-</div>
-<h3 class="font-headline-md text-on-surface">Preparado Para Novidades</h3>
-<p class="text-on-surface-variant font-body-md">Consiga créditos para garantir a nova coleção com mais facilidade! Suas cartas podem ajudar a começar novas coleções.</p>
-</div>
-<!-- Feature 3 -->
-<div class="card-lift bg-surface-container-lowest p-lg rounded-xl border border-outline-variant text-center space-y-md">
-<div class="w-20 h-20 bg-surface-container-high rounded-full mx-auto flex items-center justify-center text-primary">
-<span class="material-symbols-outlined text-5xl">local_shipping</span>
-</div>
-<h3 class="font-headline-md text-on-surface">Envelope Grátis</h3>
-<p class="text-on-surface-variant font-body-md">Para cartas avaliadas acima de R$200, cobrimos também o valor do Envelope, caso necessário.</p>
-</div>
+<span class="font-label-caps text-label-caps text-tertiary mb-xs">GUIDE</span>
+<h3 class="font-headline-md text-[20px] mb-sm group-hover:text-primary transition-colors text-on-surface">Como Identificar Cartas Falsas em 2026</h3>
+<p class="text-on-surface-variant text-sm line-clamp-3">Cartas falsas estão cada vez mais bem-feitas, mas nossos especialistas têm 5 formas infalíveis de saber se aquela carta valiosa que você tirou no pacote é autêntica.</p>
+</article>
 </div>
 </section>
-<!-- Step by Step Illustration -->
-<section class="bg-surface-container-low rounded-3xl p-lg md:p-xl overflow-hidden relative border border-outline-variant/30">
-<div class="absolute top-0 right-0 p-lg opacity-5 pointer-events-none">
-<span class="material-symbols-outlined text-[200px] text-primary">auto_awesome</span>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-lg items-center">
-<div>
-<h2 class="font-headline-lg mb-md text-on-surface">O Processo Pixels</h2>
-<div class="space-y-lg relative">
-<!-- Connector Line -->
-<div class="absolute left-8 top-8 bottom-8 w-1 bg-outline-variant/30 hidden md:block"></div>
-<div class="flex gap-md relative z-10">
-<div class="w-16 h-16 bg-primary-container text-on-primary-container rounded-full flex-shrink-0 flex items-center justify-center font-display-lg text-headline-md shadow-lg">1</div>
-<div>
-<h4 class="font-headline-md text-on-surface">Envie Sua Lista</h4>
-<p class="text-on-surface-variant">Use nosso formulário online para listar as cartas que você deseja vender e obtenha uma cotação preliminar instantânea.</p>
-</div>
-</div>
-<div class="flex gap-md relative z-10">
-<div class="w-16 h-16 bg-primary-container text-on-primary-container rounded-full flex-shrink-0 flex items-center justify-center font-display-lg text-headline-md shadow-lg">2</div>
-<div>
-<h4 class="font-headline-md text-on-surface">Entrega facilitada</h4>
-<p class="text-on-surface-variant">No momento só compramos cartas em Fortaleza-CE. Entregas devem ser feitas no Shopping Benfica ou em envelope na Dominaria</p>
-</div>
-</div>
-<div class="flex gap-md relative z-10">
-<div class="w-16 h-16 bg-primary-container text-on-primary-container rounded-full flex-shrink-0 flex items-center justify-center font-display-lg text-headline-md shadow-lg">3</div>
-<div>
-<h4 class="font-headline-md text-on-surface">Receba Pagamento Rápido</h4>
-<p class="text-on-surface-variant">Escolha entre Crédito de Loja (60% do valor total) ou PIX/Dinheiro (40% do valor total).</p>
-</div>
-</div>
-</div>
-</div>
-<!-- Interactive Illustration Placeholder -->
-<div class="bg-surface-container-lowest p-base rounded-2xl shadow-2xl rotate-2 border border-outline-variant/20">
-<img src="images.png" alt="Gengar_e_Togepi" class="w-full aspect-[4/3] object-cover rounded-xl"/>
-</div>
-</div>
-</section>
-<!-- Shipping FAQ / Instructions -->
-<section class="py-xl grid grid-cols-1 md:grid-cols-3 gap-lg">
-<div class="md:col-span-1">
-<h2 class="font-headline-lg mb-sm text-on-surface">FAQ.</h2>
-<p class="text-on-surface-variant mb-md">Algumas perguntas frequêntes e suas respostas.</p>
-<div class="p-md bg-secondary-container/10 rounded-xl border border-secondary-container/30 flex items-start gap-sm">
-<span class="material-symbols-outlined text-secondary-fixed">info</span>
-<p class="text-on-surface text-sm font-medium">Caso tenham outras dúvidas, podem entrar em contato pelo WhatsApp</p>
-</div>
-</div>
-<div class="md:col-span-2 space-y-md">
-<div class="bg-surface-container-lowest p-md rounded-xl flex items-center justify-between group cursor-pointer hover:bg-surface-container-high transition-all border border-outline-variant">
-<div class="flex items-center gap-md">
-<span class="material-symbols-outlined text-primary">package_2</span>
-<span class="font-body-lg font-semibold text-on-surface">Como fazer envelopes?</span>
-</div>
-<span class="material-symbols-outlined group-hover:translate-x-1 transition-transform text-outline">chevron_right</span>
-</div>
-<div class="bg-surface-container-lowest p-md rounded-xl flex items-center justify-between group cursor-pointer hover:bg-surface-container-high transition-all border border-outline-variant">
-<div class="flex items-center gap-md">
-<span class="material-symbols-outlined text-primary">local_post_office</span>
-<span class="font-body-lg font-semibold text-on-surface">Recebem de todo Brasil?</span>
-</div>
-<span class="material-symbols-outlined group-hover:translate-x-1 transition-transform text-outline">chevron_right</span>
-</div>
-<div class="bg-surface-container-lowest p-md rounded-xl flex items-center justify-between group cursor-pointer hover:bg-surface-container-high transition-all border border-outline-variant">
-<div class="flex items-center gap-md">
-<span class="material-symbols-outlined text-primary">help</span>
-<span class="font-body-lg font-semibold text-on-surface">Como identificar cartas falsas?</span>
-</div>
-<span class="material-symbols-outlined group-hover:translate-x-1 transition-transform text-outline">chevron_right</span>
-</div>
+<!-- Newsletter / CTA -->
+<section class="max-w-container-max mx-auto px-lg mb-xl">
+<div class="pixel-corner bg-primary-container p-xl text-center relative overflow-hidden">
+<div class="absolute -top-12 -left-12 w-48 h-48 bg-white/10 rounded-full blur-3xl"></div>
+<div class="absolute -bottom-12 -right-12 w-48 h-48 bg-white/10 rounded-full blur-3xl"></div>
+<h2 class="font-display-lg text-white mb-sm">Não Perca Nenhum Lançamento</h2>
+<p class="font-body-lg text-on-primary-container opacity-90 mb-lg max-w-lg mx-auto">
+                Tenha acesso antecipado a pré-vendas, alertas de reposição de estoque e descontos exclusivos para a comunidade.
+            </p>
+<form class="flex flex-col sm:flex-row gap-sm max-w-md mx-auto relative z-10">
+<input class="flex-grow px-lg py-md rounded-lg border-none focus:ring-4 focus:ring-secondary-container/50 outline-none bg-surface-container-lowest text-on-surface placeholder:text-on-surface-variant" placeholder="trainer@pixelstcg.com" type="email"/>
+<button class="bg-secondary-container text-on-secondary-container px-lg py-md font-bold rounded-lg hover:bg-secondary-fixed transition-colors" type="submit">
+                    ENTRAR NO CLUBE
+                </button>
+</form>
 </div>
 </section>
 </main>
@@ -362,10 +393,10 @@
 <footer class="w-full mt-xl bg-surface-container-lowest border-t border-outline-variant/30">
 <div class="flex flex-col items-center gap-md py-lg px-gutter max-w-container-max mx-auto">
 <div class="font-headline-md text-primary flex items-center gap-xs">
-    <img src="logo.png" alt="Pixels TCG Logo" class="h-12">
-    <span class="font-extrabold text-primary text-xl">
+<img alt="Pixels TCG Logo" class="h-12" src="logo.png"/>
+<span class="font-extrabold text-primary text-xl">
         Pixels TCG
-      </div>
+      </span></div>
 <div class="flex flex-wrap justify-center gap-md">
 <a class="font-label-caps text-on-surface-variant opacity-80 hover:opacity-100 transition-opacity" href="#">Sobre Nós</a>
 <a class="font-label-caps text-on-surface-variant opacity-80 hover:opacity-100 transition-opacity" href="#">Política de Envio</a>
@@ -379,24 +410,25 @@
 </div>
 </footer>
 <script>
-    // Lightweight interaction for the calculator inputs
-    const inputs = document.querySelectorAll('input, select');
-    inputs.forEach(input => {
-      input.addEventListener('focus', () => {
-        input.parentElement.querySelector('label')?.classList.add('text-primary');
-      });
-      input.addEventListener('blur', () => {
-        input.parentElement.querySelector('label')?.classList.remove('text-primary');
-      });
+    // Micro-interaction for holofoil tilting
+    document.querySelectorAll('.holofoil-effect').forEach(card => {
+        card.addEventListener('mousemove', e => {
+            const rect = card.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+            
+            const centerX = rect.width / 2;
+            const centerY = rect.height / 2;
+            
+            const rotateX = (y - centerY) / 15;
+            const rotateY = (centerX - x) / 15;
+            
+            card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-8px) scale(1.02)`;
+        });
+        
+        card.addEventListener('mouseleave', () => {
+            card.style.transform = `perspective(1000px) rotateX(0deg) rotateY(0deg) translateY(0px) scale(1)`;
+        });
     });
-
-    // Button hover effects logic
-    const conditionBtns = document.querySelectorAll('.grid.grid-cols-3 button');
-    conditionBtns.forEach(btn => {
-      btn.addEventListener('click', () => {
-        conditionBtns.forEach(b => b.classList.remove('bg-primary-container', 'text-on-primary-container', 'border-primary'));
-        btn.classList.add('bg-primary-container', 'text-on-primary-container', 'border-primary');
-      });
-    });
-  </script>
+</script>
 </body></html>
